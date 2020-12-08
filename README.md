@@ -9,19 +9,19 @@ https://profjjk.github.io/horiseon_project/
 
 ### HEAD
 * Moved asset folders and updated links to reflect that change.
-* Changed '<title>' to "Horiseon Home Page".
+* Changed `<title>` to "Horiseon Home Page".
 
 ### HEADER
-* Added semantic HTML elements for '<header>' and '<nav>'.
+* Added semantic HTML elements for `<header>` and `<nav>`.
 * Fixed broken link for "Search Engine Optimization" by adding id="search-engine-optimization".
 
 ### MAIN
-* Added semantic HTML elements for '<section>', '<article>', and '<aside>'.
+* Added semantic HTML elements for `<section>`, `<article>`, and `<aside>`.
 * Added alternative text to images.
 * Changed class names and consolidated in CSS.
 
 ### FOOTER
-* Added semantic HTML elements for '<footer>'.
+* Added semantic HTML elements for `<footer>`.
 * Changed h2 to h3.
 
 
