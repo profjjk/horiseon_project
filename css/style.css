@@ -1,5 +1,6 @@
 /***** GENERAL *****/
 * {
+    /* Automatically account for padding, border, and margin in total box size for all elements */
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -19,27 +20,32 @@ header {
 }
 
 header h1 {
+    /* Remove the line break that would normally follow a heading */
     display: inline-block;
     font-size: 48px;
 }
 
 header h1 .seo {
+    /* Change color of the <span> to emphasize the "seo" part of the name */
     color: #d9dcd6;
 }
 
 header nav {
     padding-top: 15px;
     margin-right: 20px;
+    /* Floats nav menu to the far right of the h1 header */
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
 
 header nav ul {
+    /* Ensures that the nav list has no bullet points or other markers */
     list-style-type: none;
 }
 
 header nav ul li {
+    /* Make list items appear horizontally next to each other */
     display: inline-block;
     margin-left: 25px;
 }
@@ -47,7 +53,9 @@ header nav ul li {
 
 /***** MAIN SECTION *****/
 a {
+    /* Set hyperlink text color */
     color: #ffffff;
+    /* Remove hyperlink underline styling */
     text-decoration: none;
 }
 
@@ -55,12 +63,16 @@ p {
     font-size: 16px;
 }
 
+/* Apply style to main photo */
 .hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
+    /* Fills in the entire element with a photo */
     background-image: url("../images/digital-marketing-meeting.jpg");
+    /* Resizes the photo to correspond with element dimensions */
     background-size: cover;
+    /* Centers the photo within the element */
     background-position: center;
 }
 
@@ -74,24 +86,31 @@ p {
     margin-left: 25px;
 }
 
+/* Applies style to main content section */
 .content {
+    /* Limit main content width to make room for aside section to the right */
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Applies style to entire sidebar section */
 .benefits-all {
     margin-right: 20px;
     padding: 20px;
     clear: both;
+    /* Float aside section to the right of the main content area */
     float: right;
+    /* Limit width so it fits on the right of the main content area */
     width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
 
+/* Applies style to each individual benefit section within the sidebar */
 .benefit-ind {
+    /* Create a little space below each individual benefit */
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -102,6 +121,7 @@ p {
 }
 
 .benefit-ind img {
+    /* Ensure that the image sits on its own line */
     display: block;
     margin: 10px auto;
     max-width: 150px;
