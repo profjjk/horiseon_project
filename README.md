@@ -1,27 +1,45 @@
 # Horiseon Project
-This is a refactoring of the Horiseon home page to include accessibility features. Original page was missing Semantic HTML5 elements and images were missing alternative text. Code improvements were made to provide for more clear and concise reading of the HTML and CSS files.
+This is a refactoring of the Horiseon home page to include accessibility features. Original page was missing Semantic HTML5 elements and images were missing alternative text. Code improvements were made and comments added to provide for more clear and concise reading of the HTML and CSS files.
+
+## Code Snippets
+* Added semantic HTML elements for `<header>`, `<nav>`, `<section>`, `<article>`, `<aside>`, and `<footer>`.
+```
+<header>
+        <h1>Hori<span class="seo">seo</span>n</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#seo">Search Engine Optimization</a>
+```
+```
+<footer>
+        <h3>Made with ❤️️ by Horiseon</h3>
+```
+* Consolidated and renamed redundant classes to `benefits-all`, `benefit-ind`, and `article`. Shortened id names.
+```
+<section class="content">
+        <article id="seo" class="article">
+```
+```
+<aside class="benefits-all">
+        <div class="benefit-ind">
+```
+* Added alternative text to images.
+```
+<img src="images/search-engine-optimization.jpg" class="float-left" alt="Search Engine Optimization"/>
+```
 
 ## Link to website
-https://profjjk.github.io/horiseon_project/
+[Horiseon Home Page](https://profjjk.github.io/horiseon_project/)
 
+## Built With
+* [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
-## Changes made to HTML file
-#### HEAD
-* Removed one layer from the asset folders to simplify relative path and updated links to reflect that change.
-* Changed `<title>` to "Horiseon Home Page".
-#### HEADER
-* Added semantic HTML elements for `<header>` and `<nav>`.
-* Fixed broken link in nav bar for "Search Engine Optimization" by adding id="search-engine-optimization" to the relevant article.
-#### MAIN
-* Added semantic HTML elements for `<section>`, `<article>`, and `<aside>`.
-* Added alternative text to images.
-#### FOOTER
-* Added semantic HTML elements for `<footer>`.
-* Changed h2 to h3 to better reflect naming hierarchy.
-
-## Changes made to CSS file
-* Added comments to clarify purpose of some CSS elements.
-* Consolidated cumbersome and redundant CSS selectors into new class names: `.benefits-all`, `benefit-ind`, and `article`.
+## Author
+**Jordan Kelly** 
+- [Github](https://github.com/profjjk)
+- [LinkedIn](https://www.linkedin.com/in/jordan-kelly-3934a597/)
 
 ## Screen Shots
 ![Screen Shot](images/screenshot_top.png?raw=true "Screen Shot Top")
