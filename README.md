@@ -31,6 +31,7 @@ This is a refactoring of the Horiseon home page to include accessibility feature
 
 ## Link to website
 [Horiseon Home Page](https://profjjk.github.io/horiseon_project/)
+[GitHub Repo](https://github.com/profjjk/horiseon_project)
 
 ## Built With
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
